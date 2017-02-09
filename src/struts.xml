@@ -13,7 +13,7 @@
            <param name="uploadPathString">D:\upload\</param>
            <param name="allowTypeString">image/jpeg,image/gif,image/pjpeg</param>
        </action>
-       <action name="UploadMoreAction" class="action.UploadMoreAction">
+       <action name="UploadMoreListAction" class="action.UploadMoreListAction">
            <result name="result">/result.jsp</result>
            <!-- 设置上传文件的保存路径 -->
           

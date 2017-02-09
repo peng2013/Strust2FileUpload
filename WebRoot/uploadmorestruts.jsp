@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         uploadHTML.setAttribute("name","upload");
         document.body.appendChild(uploadHTML);
         var uploadHTML=document.createElement("TR");
-        document.body.appendChild(uploadHTML);
+        document.form.appendChild(uploadHTML);
    }
     </script>
 
@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <s:fielderror>
         <input type="button" onclick="addFile();" value="添加文件">
         <!-- form表单 -->
-        <s:form action="UploadMoreAction" enctype="multipart/form-data">
+        <s:form action="UploadMoreListAction" enctype="multipart/form-data">
            <span id="files"><input type="file" name="upload"></span>
            <input type="submit" value="上传" style="width: 50px">
         </s:form>

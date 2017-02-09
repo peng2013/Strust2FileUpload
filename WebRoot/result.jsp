@@ -15,6 +15,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-     <s:property value="resultString"/>
+     <s:property value="result"/>
   </body>
 </html>
